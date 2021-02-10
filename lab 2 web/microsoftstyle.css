@@ -1,0 +1,199 @@
+#microsoft-logo{
+    position: absolute;
+    left: 40px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 150px;
+    margin-left: 10px;
+    color: black;
+}
+
+#login-logo{
+    position: absolute;
+    right: 30px;
+}
+
+#login{
+    position: absolute;
+    right: 80px;
+    top: 5px;
+    font-size: 15px;
+}
+
+#search{
+    position: absolute;
+    top: 20px;
+    right: 180px;
+    color: black;
+    font-size: 15px;
+}
+
+#search-logo{
+    position: absolute;
+    top: 20px;
+    right: 155px;
+}
+
+
+#products{
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    padding: 1px;
+    color: black;
+    border-color: white;
+    font-size: 15px;
+}
+
+#main-photo{
+    padding: 40px;
+    width: 1400px;
+    height: 550px;
+}
+
+#text-one{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#text-two{
+    position: absolute;
+    top: 280px;
+    width: 550px;
+    left: 150px;
+    font-size: 16px;
+}
+
+.select-number{
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.select-number-two{
+    position: absolute;
+    top: 380px;
+    left: 340px;
+    font-size: 16px;
+    color: black;
+    padding: 10px 15px;
+}
+
+#m-team-name{
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+
+#m-team-text{
+    position: relative;
+    left: 40px;
+    width: 400px;
+}
+
+#ref-one{
+    position: relative;
+    left: 40px;
+    color: rgb(42, 114, 182);
+}
+
+#m-edge-photo{
+    position: absolute;
+    left: 398px;
+    top: 670px;
+}
+
+#m-edge-name{
+    position: relative;
+    bottom: 140px;
+    left: 398px;
+    font-size: 20px;
+}
+
+#m-edge-text{
+    position: relative;
+    bottom: 140px;
+    left: 398px;
+    width: 400px;
+}
+
+#ref-two{
+    position: relative;
+    bottom: 140px;
+    left: 398px;
+    color: rgb(42, 114, 182);
+}
+
+#m-onedrive-photo{
+    position: absolute;
+    left: 767px;
+    top: 670px;
+    width: 320px;
+    height:193px;
+}
+
+#m-onedrive-name{
+    position: relative;
+    bottom: 300px;
+    left: 767px;
+    font-size: 20px;
+}
+
+#m-onedrive-text{
+    position: relative;
+    bottom: 300px;
+    left: 767px;
+    width: 350px;
+}
+
+#ref-three{
+    position: relative;
+    bottom: 300px;
+    left: 767px;
+    color: rgb(42, 114, 182);
+}
+
+#windows-photo{
+    position: absolute;
+    right: 67px;
+    top: 670px;
+    width: 320px;
+    height: 193px;
+}
+
+#windows-name{
+    position: relative;
+    bottom: 450px;
+    left: 1140px;
+    font-size: 20px;
+}
+
+#windows-text{
+    position: relative;
+    bottom: 450px;
+    left: 1140px;
+    width: 340px;
+}
+
+#ref-four{
+    position: relative;
+    bottom: 450px;
+    left: 1140px;
+    color: rgb(42, 114, 182);
+}

@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#image{
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+.login{
+    border: 1px solid rgb(194, 190, 190);
+    float: right;
+    margin: 60px 300px 0px 900px;
+    width: 350px;
+    height: 355px;
+    text-align: center;
+   background-color: white;
+}
+
+.first-input{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+input{
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 2px;;
+    width: 70%;
+    height: 30px;
+    background-color: rgb(235, 237, 240);
+}
+
+input[type=submit]{
+    background-color: rgb(31, 125, 212);
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+    
+    
+#f-logo{
+    position: absolute;
+    right: 580px;
+    bottom: 388px;
+}
+
+#f-login{
+    color:  rgb(22, 105, 184);
+}
+
+#forget-password{
+    color:rgb(29, 106, 179);
+}
+
+#or{
+    border-bottom: 1px solid  rgb(194, 190, 190);
+    line-height: 5px;
+    margin: 20px 30px 0px 30px;
+}
+
+#or-text{
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.register{
+    border: 1px solid  rgb(194, 190, 190);
+    float: right;
+    margin: 10px 300px 0px 900px;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+}
+
+#reg-text{
+    color:rgb(52, 180, 231)
+}
+
+#app-text{
+    position: absolute;
+    bottom: 180px;
+    right: 400px;
+}
+
+#install-appstore{
+    position: absolute;
+    bottom: 135px;
+    right: 480px;
+}
+
+#install-googleplay{
+    position: absolute;
+    bottom: 138px;
+    right: 320px;
+}
+
+.below{
+    position: absolute;
+    height: 150px;
+    margin-top: 650px;
+    font-size: small;
+    text-align: center;
+    color: rgb(143, 143, 146);
+}
+
+.below ul{
+    width: 55%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.below ul li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+#language{
+    padding: 5px;
+    color: rgb(146, 145, 145);
+}
