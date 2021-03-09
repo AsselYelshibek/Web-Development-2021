@@ -1,0 +1,37 @@
+<div class="products">
+  <h2>Products</h2>
+
+  <div *ngFor="let product of products;
+               let i = index" class = "product">
+
+    <div class="product-img">
+      <img src="{{product.image}}" class="img-product">
+    </div>
+
+    <div class="product-name">
+      <button (click)=openLink(product.link) class="name">
+        <strong>{{product.name}}</strong>
+      </button>
+
+      <p *ngIf = "product.description">
+        <strong>Description:</strong> {{product.description}}
+      </p>
+
+      <div class = "rating">
+        <p><strong>Rating:</strong> {{product.rating}}</p>
+      </div>
+
+
+      <button (click)="share(i)" class="share-button">
+        Share
+      </button>
+      <div *ngIf="product.share" class="share">
+        <a href="whatsapp://send?text={product.link}" data-action="share/whatsapp/share" target="_blank"><img src = "https://i.pinimg.com/originals/cf/b0/e3/cfb0e325f5ecfb07166c013014af3d98.jpg" class="icon"></a>
+        <a href="https://t.me/share/url?url={{product.link}}" target="_blank"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1024px-WhatsApp_logo-color-vertical.svg.png" class="icon"></a>
+      </div>
+      <app-product-alerts [product]="product" (notify)="onNotify()">
+      </app-product-alerts>
+
+
+  </div>
+</div>
